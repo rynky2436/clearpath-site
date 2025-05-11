@@ -73,8 +73,8 @@ export const services: Service[] = [
     title: "Smart Home Automation",
     shortDescription: "Integrate and automate your home's lighting, security, climate, and entertainment systems for convenience and efficiency.",
     description: "Transform your living space with our comprehensive smart home solutions. We design, install, and configure integrated systems that connect your lighting, security, climate control, entertainment, and more into one seamless experience that's both intuitive and powerful.",
-    image: "https://images.unsplash.com/photo-1558002038-1055907df827?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80",
-    heroImage: "https://images.unsplash.com/photo-1585060282215-39a72f82385c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1000&q=80",
+    image: "https://images.unsplash.com/photo-1593784991188-c899ca07263b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80",
+    heroImage: "https://images.unsplash.com/photo-1593784991188-c899ca07263b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1000&q=80",
     sections: [
       {
         title: "Whole-Home Integration",

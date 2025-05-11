@@ -20,10 +20,9 @@ export default function HeroSection({
     <section className="relative py-20 md:py-28 overflow-hidden">
       {/* Background with overlay */}
       <div 
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-center bg-neutral-600"
         style={{
-          backgroundImage: backgroundImage ? `url(${backgroundImage})` : undefined,
-          backgroundColor: !backgroundImage ? '#2d3748' : undefined
+          backgroundImage: backgroundImage ? `url(${backgroundImage})` : undefined
         }}
       ></div>
       <div className="absolute inset-0 bg-neutral-900/70"></div>
