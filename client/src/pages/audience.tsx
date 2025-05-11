@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { motion } from "framer-motion";
 import { ArrowRight, CheckCircle } from "lucide-react";
 import { Link } from "wouter";
+import HeroSection from "@/components/HeroSection";
 
 export default function Audience() {
   const { slug } = useParams();
@@ -36,35 +37,13 @@ export default function Audience() {
       
       <main>
         {/* Hero section */}
-        <section
-          className="relative py-20 md:py-28 overflow-hidden"
-          style={{
-            backgroundImage: `url(${audience.heroImage})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        >
-          <div className="absolute inset-0 bg-neutral-900/50"></div>
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              className="max-w-3xl"
-            >
-              <span className="px-4 py-1 bg-primary/20 text-primary rounded-full text-sm font-medium mb-4 inline-block">
-                Solutions for {audience.title}
-              </span>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-                {audience.pageTitle}
-              </h1>
-              <p className="text-xl text-white/90 mb-8">{audience.shortDescription}</p>
-              <Button size="lg" className="rounded-full" asChild>
-                <a href="#contact">Get a Personalized Solution</a>
-              </Button>
-            </motion.div>
-          </div>
-        </section>
+        <HeroSection
+          title={audience.pageTitle}
+          description={audience.shortDescription}
+          backgroundImage={audience.heroImage}
+          actionLabel="Get a Personalized Solution"
+          actionLink="#contact"
+        />
         
         {/* Content section */}
         <section className="py-16 bg-white">
