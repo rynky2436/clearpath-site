@@ -20,18 +20,18 @@ export default function HeroSection() {
           className="glass rounded-3xl shadow-xl max-w-3xl mx-auto md:mx-0 p-8 md:p-12"
         >
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-            Managed IT Services <span className="text-primary">in Maryland</span>
+            Managed IT Services <span className="text-primary">in the DC Metro Area</span>
           </h1>
           <p className="text-lg md:text-xl text-neutral-700 mb-8 max-w-2xl">
-            ClearPath Tech Solutions provides complete IT support for businesses across Baltimore, Columbia, and all of Maryland.
-            From managed IT services to cybersecurity, network support, and cloud solutions - we're your trusted local technology partner.
+            ClearPath Tech Solutions provides complete IT support for businesses throughout Washington DC, Maryland, and Northern Virginia.
+            From managed IT services to cybersecurity, network support, and cloud solutions - we're your trusted technology partner in the DMV region.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="#services"
               className="bg-primary text-white text-center px-8 py-4 rounded-full hover:bg-blue-700 transition-colors text-lg font-medium"
             >
-              Maryland IT Support Services
+              DC Metro IT Support Services
             </a>
             <a
               href="#consult"

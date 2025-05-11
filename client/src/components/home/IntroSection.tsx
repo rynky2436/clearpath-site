@@ -27,15 +27,15 @@ export default function IntroSection() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Baltimore & Columbia's Premier <span className="text-primary">Managed IT Provider</span>
+              DC Metro Area's Premier <span className="text-primary">Managed IT Provider</span>
             </h2>
             <p className="text-neutral-600 text-lg mb-6">
-              At ClearPath Tech Solutions, we provide comprehensive managed IT services for businesses throughout Baltimore, Columbia, and the entire Maryland region.
-              Our proactive approach ensures your business technology runs smoothly with 24/7 monitoring and rapid response support.
+              At ClearPath Tech Solutions, we provide comprehensive managed IT services for businesses throughout Washington DC, Maryland, and Northern Virginia.
+              Our proactive approach ensures your business technology runs smoothly with 24/7 monitoring and rapid response support across the entire DMV region.
             </p>
             <p className="text-neutral-600 text-lg mb-8">
               From network security and data protection to cloud services and Microsoft 365 support, our team of certified IT professionals
-              delivers enterprise-level technology solutions designed specifically for Maryland small and medium businesses.
+              delivers enterprise-level technology solutions designed specifically for small and medium businesses throughout the DC Metro area.
             </p>
             
             <div className="grid grid-cols-2 gap-6">
@@ -46,7 +46,7 @@ export default function IntroSection() {
                 },
                 {
                   title: "Cybersecurity Solutions",
-                  description: "Advanced protection for Maryland businesses",
+                  description: "Advanced protection for DC Metro businesses",
                 },
                 {
                   title: "Cloud Services & Migration",
@@ -54,7 +54,7 @@ export default function IntroSection() {
                 },
                 {
                   title: "24/7 Help Desk Support",
-                  description: "Rapid response from our Baltimore team",
+                  description: "Rapid response across the DMV region",
                 },
               ].map((item, index) => (
                 <motion.div
