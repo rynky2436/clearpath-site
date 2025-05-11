@@ -27,34 +27,34 @@ export default function IntroSection() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Maryland's Trusted <span className="text-primary">IT Support Partner</span>
+              Baltimore & Columbia's Premier <span className="text-primary">Managed IT Provider</span>
             </h2>
             <p className="text-neutral-600 text-lg mb-6">
-              At ClearPath Tech Solutions, we provide honest and friendly IT support services for businesses across Maryland. 
-              Our white-glove approach ensures personalized tech solutions that work for your specific needs.
+              At ClearPath Tech Solutions, we provide comprehensive managed IT services for businesses throughout Baltimore, Columbia, and the entire Maryland region.
+              Our proactive approach ensures your business technology runs smoothly with 24/7 monitoring and rapid response support.
             </p>
             <p className="text-neutral-600 text-lg mb-8">
-              From managed IT services and cybersecurity to website development and cloud services, our team of certified technicians 
-              delivers reliable technology support with clear communication and ongoing assistance.
+              From network security and data protection to cloud services and Microsoft 365 support, our team of certified IT professionals
+              delivers enterprise-level technology solutions designed specifically for Maryland small and medium businesses.
             </p>
             
             <div className="grid grid-cols-2 gap-6">
               {[
                 {
-                  title: "Local IT Support",
-                  description: "Maryland-based team ready to help",
+                  title: "Managed IT Services",
+                  description: "Proactive monitoring & maintenance",
                 },
                 {
-                  title: "Small Business Focus",
-                  description: "Affordable services for local businesses",
+                  title: "Cybersecurity Solutions",
+                  description: "Advanced protection for Maryland businesses",
                 },
                 {
-                  title: "One-on-One Support",
-                  description: "No technical jargon, just friendly help",
+                  title: "Cloud Services & Migration",
+                  description: "Microsoft 365 & Azure implementation",
                 },
                 {
-                  title: "Remote & On-Site Help",
-                  description: "Fast response helpdesk & in-person visits",
+                  title: "24/7 Help Desk Support",
+                  description: "Rapid response from our Baltimore team",
                 },
               ].map((item, index) => (
                 <motion.div

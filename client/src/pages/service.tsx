@@ -20,12 +20,14 @@ export default function Service() {
   return (
     <>
       <Helmet>
-        <title>{service.title} | ClearPath Tech Solutions</title>
-        <meta name="description" content={service.description.slice(0, 160)} />
-        <meta property="og:title" content={`${service.title} | ClearPath Tech Solutions`} />
-        <meta property="og:description" content={service.description.slice(0, 160)} />
+        <title>{service.title} | Maryland IT Services | ClearPath Tech Solutions</title>
+        <meta name="description" content={`${service.title} in Baltimore, Columbia & across Maryland. ${service.description.slice(0, 120)}`} />
+        <meta property="og:title" content={`${service.title} | Maryland IT Services | ClearPath Tech Solutions`} />
+        <meta property="og:description" content={`Professional ${service.title.toLowerCase()} for businesses throughout Maryland. Serving Baltimore, Columbia, Annapolis and surrounding areas.`} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={`https://clearpathtech.com/services/${service.slug}`} />
+        <meta name="keywords" content={`${service.title} Maryland, ${service.title} Baltimore, IT Services Maryland, Technology Solutions Columbia MD, Professional IT Support, ${service.title.split(' ').join(', ')}`} />
+        <meta name="geo.region" content="US-MD" />
       </Helmet>
       
       <main>
@@ -98,28 +100,32 @@ export default function Service() {
                 transition={{ duration: 0.6, delay: 0.3 }}
               >
                 <div className="glass rounded-3xl shadow-lg p-8 sticky top-24">
-                  <h3 className="text-xl font-bold mb-6">Why Choose ClearPath Tech</h3>
+                  <h3 className="text-xl font-bold mb-6">Why Choose ClearPath Tech in Maryland</h3>
                   
                   <ul className="space-y-4">
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
-                      <span>Personalized solutions tailored to your needs</span>
+                      <span>Local Maryland IT team with fast response times</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
-                      <span>Expert technicians with years of experience</span>
+                      <span>Certified IT professionals with industry expertise</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
-                      <span>Ongoing support and maintenance</span>
+                      <span>24/7 monitoring and proactive maintenance</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
-                      <span>Clear communication throughout the process</span>
+                      <span>Maryland-based offices in Baltimore and Columbia</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
-                      <span>Transparent pricing with no hidden fees</span>
+                      <span>Flat-rate IT services with predictable monthly costs</span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="h-5 w-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
+                      <span>Experience serving Maryland businesses since 2010</span>
                     </li>
                   </ul>
                   

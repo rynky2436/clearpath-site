@@ -10,13 +10,16 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>ClearPath Tech Solutions | IT Support Services Maryland</title>
-        <meta name="description" content="Trusted IT support services in Maryland. ClearPath Tech provides managed IT services, business tech support, cybersecurity, and website development for small businesses." />
-        <meta property="og:title" content="ClearPath Tech Solutions | IT Support Services Maryland" />
-        <meta property="og:description" content="Trusted Maryland IT support, managed services, and tech consulting for small businesses. Local, friendly, and personalized technology solutions." />
+        <title>ClearPath Tech Solutions | Managed IT Services Maryland | Baltimore IT Support</title>
+        <meta name="description" content="Expert IT support services in Baltimore, Columbia & across Maryland. ClearPath Tech provides managed IT services, cybersecurity, network support, and cloud solutions for small businesses." />
+        <meta property="og:title" content="ClearPath Tech Solutions | Maryland Managed IT Services | Baltimore IT Support" />
+        <meta property="og:description" content="Trusted Maryland IT support provider with offices in Baltimore and Columbia. 24/7 remote support, on-site services, and complete technology management for businesses." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://clearpathtech.com" />
-        <meta name="keywords" content="IT support services Maryland, business tech support Maryland, managed IT services Maryland, small business IT support, cybersecurity services Maryland, website development Maryland, computer repair for businesses" />
+        <meta name="keywords" content="Managed IT Services Maryland, Baltimore IT Support, Columbia IT Services, Small Business IT Support Maryland, Cybersecurity Services Baltimore, IT Help Desk Maryland, Network Support Services, Cloud Services Maryland, Microsoft 365 Support, IT Consulting Baltimore, Computer Support Columbia MD, Business Continuity Services" />
+        <meta name="geo.region" content="US-MD" />
+        <meta name="geo.placename" content="Baltimore, Columbia" />
+        <link rel="canonical" href="https://clearpathtech.com" />
       </Helmet>
       
       <main>
