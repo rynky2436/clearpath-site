@@ -27,12 +27,15 @@ export default function Audience() {
   return (
     <>
       <Helmet>
-        <title>Technology Solutions for {audience.title} | ClearPath Tech</title>
-        <meta name="description" content={`Custom technology solutions for ${audience.title.toLowerCase()}. ${audience.shortDescription}`} />
-        <meta property="og:title" content={`Technology Solutions for ${audience.title} | ClearPath Tech`} />
-        <meta property="og:description" content={`Custom technology solutions for ${audience.title.toLowerCase()}. ${audience.shortDescription}`} />
+        <title>Maryland IT Solutions for {audience.title} | IT Support | ClearPath Tech</title>
+        <meta name="description" content={`Custom IT solutions for ${audience.title.toLowerCase()} in Maryland. ClearPath Tech provides tailored technology services in Baltimore, Columbia, and throughout Maryland.`} />
+        <meta property="og:title" content={`IT Solutions for ${audience.title} in Maryland | ClearPath Tech`} />
+        <meta property="og:description" content={`Expert IT support and technology solutions for ${audience.title.toLowerCase()} in Baltimore, Columbia, and throughout Maryland. Local, reliable IT services tailored to your needs.`} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={`https://clearpathtech.com/audience/${audience.slug}`} />
+        <meta name="keywords" content={`IT solutions for ${audience.title}, IT support for ${audience.title} Maryland, technology services ${audience.title.toLowerCase()} Baltimore, IT consulting ${audience.title.toLowerCase()} Columbia MD, managed services ${audience.title}`} />
+        <meta name="geo.region" content="US-MD" />
+        <meta name="geo.placename" content="Baltimore, Columbia" />
       </Helmet>
       
       <main>
@@ -55,7 +58,7 @@ export default function Audience() {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="md:col-span-2"
               >
-                <h2 className="text-3xl font-bold mb-6">Technology Solutions for {audience.title}</h2>
+                <h2 className="text-3xl font-bold mb-6">Maryland IT Solutions for {audience.title}</h2>
                 <div className="prose prose-lg max-w-none">
                   <p>{audience.description}</p>
                   
@@ -129,7 +132,7 @@ export default function Audience() {
                 transition={{ duration: 0.6, delay: 0.3 }}
               >
                 <div className="glass rounded-3xl shadow-lg p-8 sticky top-24">
-                  <h3 className="text-xl font-bold mb-6">How We Help {audience.title}</h3>
+                  <h3 className="text-xl font-bold mb-6">How We Help {audience.title} in Maryland</h3>
                   
                   <ul className="space-y-4">
                     {audience.benefits?.map((benefit, index) => (
@@ -159,8 +162,9 @@ export default function Audience() {
                   
                   <div className="mt-8">
                     <Button className="w-full rounded-xl" size="lg" asChild>
-                      <a href="#contact">Request a Consultation</a>
+                      <a href="#contact">Get Maryland IT Support</a>
                     </Button>
+                    <p className="text-xs text-center mt-3 text-neutral-500">Serving {audience.title} throughout Maryland</p>
                   </div>
                 </div>
               </motion.div>
@@ -172,19 +176,22 @@ export default function Audience() {
         <section className="py-16 bg-secondary">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="glass rounded-3xl shadow-lg p-8 md:p-12 max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready for personalized technology solutions?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">Maryland IT Support for {audience.title}</h2>
               <p className="text-lg text-neutral-600 mb-8 max-w-2xl mx-auto">
-                Our team specializes in creating custom technology solutions for {audience.title.toLowerCase()}.
-                Contact us today to discuss your specific needs.
+                ClearPath Tech specializes in custom IT solutions for {audience.title.toLowerCase()} throughout Baltimore, Columbia, and all of Maryland.
+                Contact our local team today to discuss your specific technology needs.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="rounded-full" asChild>
-                  <a href="#contact">Schedule a Consultation</a>
+                  <a href="#contact">Schedule Free IT Assessment</a>
                 </Button>
                 <Button variant="outline" size="lg" className="rounded-full" asChild>
-                  <a href="tel:+14155550123">Call (415) 555-0123</a>
+                  <a href="tel:+14105550123">Call (410) 555-0123</a>
                 </Button>
               </div>
+              <p className="text-sm text-neutral-500 mt-6">
+                Trusted by {audience.title.toLowerCase()} across Baltimore, Columbia, Annapolis, and all of Maryland
+              </p>
             </div>
           </div>
         </section>

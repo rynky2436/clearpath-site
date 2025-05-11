@@ -131,8 +131,9 @@ export default function Service() {
                   
                   <div className="mt-8">
                     <Button className="w-full rounded-xl" size="lg" asChild>
-                      <a href="#contact">Schedule a Consultation</a>
+                      <a href="#contact">Get Maryland IT Support</a>
                     </Button>
+                    <p className="text-xs text-center mt-3 text-neutral-500">Serving Baltimore, Columbia & All Maryland</p>
                   </div>
                 </div>
               </motion.div>
@@ -144,19 +145,22 @@ export default function Service() {
         <section className="py-16 bg-secondary">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="glass rounded-3xl shadow-lg p-8 md:p-12 max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to get started?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">Need {service.title} in Maryland?</h2>
               <p className="text-lg text-neutral-600 mb-8 max-w-2xl mx-auto">
-                Contact our team today to discuss your {service.title.toLowerCase()} needs and 
-                how we can help you achieve your technology goals.
+                Our Baltimore and Columbia-based IT team is ready to provide expert {service.title.toLowerCase()} 
+                solutions for your Maryland business. Contact us today for a free assessment.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="rounded-full" asChild>
-                  <a href="#contact">Schedule a Consultation</a>
+                  <a href="#contact">Schedule Free IT Assessment</a>
                 </Button>
                 <Button variant="outline" size="lg" className="rounded-full" asChild>
-                  <a href="tel:+14155550123">Call (415) 555-0123</a>
+                  <a href="tel:+14105550123">Call (410) 555-0123</a>
                 </Button>
               </div>
+              <p className="text-sm text-neutral-500 mt-6">
+                Serving Baltimore, Columbia, Annapolis, and all of Maryland
+              </p>
             </div>
           </div>
         </section>
