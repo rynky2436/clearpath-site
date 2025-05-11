@@ -27,15 +27,15 @@ export default function Audience() {
   return (
     <>
       <Helmet>
-        <title>Maryland IT Solutions for {audience.title} | IT Support | ClearPath Tech</title>
-        <meta name="description" content={`Custom IT solutions for ${audience.title.toLowerCase()} in Maryland. ClearPath Tech provides tailored technology services in Baltimore, Columbia, and throughout Maryland.`} />
-        <meta property="og:title" content={`IT Solutions for ${audience.title} in Maryland | ClearPath Tech`} />
-        <meta property="og:description" content={`Expert IT support and technology solutions for ${audience.title.toLowerCase()} in Baltimore, Columbia, and throughout Maryland. Local, reliable IT services tailored to your needs.`} />
+        <title>DC Metro IT Solutions for {audience.title} | DMV IT Support | ClearPath Tech</title>
+        <meta name="description" content={`Custom IT solutions for ${audience.title.toLowerCase()} in the DC Metro area. ClearPath Tech provides tailored technology services in Washington DC, Maryland, and Northern Virginia.`} />
+        <meta property="og:title" content={`IT Solutions for ${audience.title} in the DMV Region | ClearPath Tech`} />
+        <meta property="og:description" content={`Expert IT support and technology solutions for ${audience.title.toLowerCase()} throughout the DC Metro area. Reliable, local IT services tailored to your specific needs across the DMV region.`} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={`https://clearpathtech.com/audience/${audience.slug}`} />
-        <meta name="keywords" content={`IT solutions for ${audience.title}, IT support for ${audience.title} Maryland, technology services ${audience.title.toLowerCase()} Baltimore, IT consulting ${audience.title.toLowerCase()} Columbia MD, managed services ${audience.title}`} />
-        <meta name="geo.region" content="US-MD" />
-        <meta name="geo.placename" content="Baltimore, Columbia" />
+        <meta name="keywords" content={`IT solutions for ${audience.title}, IT support for ${audience.title} DC Metro, technology services ${audience.title.toLowerCase()} Washington DC, IT consulting ${audience.title.toLowerCase()} Northern Virginia, managed services ${audience.title} DMV`} />
+        <meta name="geo.region" content="US-DC, US-MD, US-VA" />
+        <meta name="geo.placename" content="Washington DC, Northern Virginia, Maryland" />
       </Helmet>
       
       <main>
@@ -58,7 +58,7 @@ export default function Audience() {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="md:col-span-2"
               >
-                <h2 className="text-3xl font-bold mb-6">Maryland IT Solutions for {audience.title}</h2>
+                <h2 className="text-3xl font-bold mb-6">DC Metro Area IT Solutions for {audience.title}</h2>
                 <div className="prose prose-lg max-w-none">
                   <p>{audience.description}</p>
                   
@@ -132,7 +132,7 @@ export default function Audience() {
                 transition={{ duration: 0.6, delay: 0.3 }}
               >
                 <div className="glass rounded-3xl shadow-lg p-8 sticky top-24">
-                  <h3 className="text-xl font-bold mb-6">How We Help {audience.title} in Maryland</h3>
+                  <h3 className="text-xl font-bold mb-6">How We Help {audience.title} in the DC Metro Area</h3>
                   
                   <ul className="space-y-4">
                     {audience.benefits?.map((benefit, index) => (
@@ -164,7 +164,7 @@ export default function Audience() {
                     <Button className="w-full rounded-xl" size="lg" asChild>
                       <a href="#contact">Get Maryland IT Support</a>
                     </Button>
-                    <p className="text-xs text-center mt-3 text-neutral-500">Serving {audience.title} throughout Maryland</p>
+                    <p className="text-xs text-center mt-3 text-neutral-500">Serving {audience.title} throughout the DMV region</p>
                   </div>
                 </div>
               </motion.div>
