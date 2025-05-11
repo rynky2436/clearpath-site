@@ -6,12 +6,12 @@ export default function HeroSection() {
     <section
       className="relative h-screen min-h-[600px] flex items-center overflow-hidden"
       style={{
-        backgroundImage: "url('https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1000&q=80')",
+        backgroundImage: "url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1000&q=80')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
-      <div className="absolute inset-0 bg-neutral-900/30"></div>
+      <div className="absolute inset-0 bg-neutral-900/50"></div>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
