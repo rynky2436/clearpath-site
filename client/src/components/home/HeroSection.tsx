@@ -31,13 +31,13 @@ export default function HeroSection() {
               href="#services"
               className="bg-primary text-white text-center px-8 py-4 rounded-full hover:bg-blue-700 transition-colors text-lg font-medium"
             >
-              Explore Services
+              View IT Support Services
             </a>
             <a
               href="#consult"
               className="bg-white/20 backdrop-blur-sm text-white border border-white/30 text-center px-8 py-4 rounded-full hover:bg-white/30 transition-colors text-lg font-medium"
             >
-              Free Consultation
+              Get Free IT Consultation
             </a>
           </div>
         </motion.div>

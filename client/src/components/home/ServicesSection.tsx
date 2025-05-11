@@ -14,9 +14,10 @@ export default function ServicesSection() {
           transition={{ duration: 0.6 }}
           className="text-center max-w-3xl mx-auto mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Technology Services</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Maryland IT Support & Tech Services</h2>
           <p className="text-neutral-600 text-lg">
-            Comprehensive solutions for all your technology needs, from custom builds to ongoing maintenance and support.
+            Comprehensive IT support services for Maryland businesses. We offer managed IT services, 
+            cybersecurity, data backup, network setup, and website development solutions.
           </p>
         </motion.div>
         

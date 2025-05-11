@@ -143,16 +143,18 @@ export default function CTASection() {
                     } text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-white/50`}
                   >
                     <option value="" className="bg-neutral-900">Select a service</option>
-                    <option value="pc-builds" className="bg-neutral-900">PC Builds</option>
-                    <option value="smart-home" className="bg-neutral-900">Smart Home Automation</option>
-                    <option value="media-servers" className="bg-neutral-900">Media Servers</option>
-                    <option value="network-security" className="bg-neutral-900">Network & Cybersecurity</option>
+                    <option value="managed-it" className="bg-neutral-900">Managed IT Services</option>
+                    <option value="it-support" className="bg-neutral-900">Small Business IT Support</option>
+                    <option value="cybersecurity" className="bg-neutral-900">Cybersecurity Services</option>
                     <option value="data-backup" className="bg-neutral-900">Data Backup & Recovery</option>
-                    <option value="tech-support" className="bg-neutral-900">Tech Support</option>
-                    <option value="ai-automation" className="bg-neutral-900">AI & Automation</option>
-                    <option value="web-design" className="bg-neutral-900">Website Design</option>
-                    <option value="business-it" className="bg-neutral-900">Business IT</option>
-                    <option value="other" className="bg-neutral-900">Other</option>
+                    <option value="network" className="bg-neutral-900">Network Setup & Support</option>
+                    <option value="cloud" className="bg-neutral-900">Cloud Services</option>
+                    <option value="business-email" className="bg-neutral-900">Business Email Setup</option>
+                    <option value="microsoft-365" className="bg-neutral-900">Microsoft 365 Support</option>
+                    <option value="website" className="bg-neutral-900">Website Development</option>
+                    <option value="remote-support" className="bg-neutral-900">Remote IT Help Desk</option>
+                    <option value="voip" className="bg-neutral-900">VoIP Setup & Support</option>
+                    <option value="other" className="bg-neutral-900">Other IT Services</option>
                   </select>
                   {errors.service && <p className="mt-1 text-sm text-red-400">{errors.service}</p>}
                 </div>
@@ -174,7 +176,7 @@ export default function CTASection() {
                   disabled={isSubmitting}
                   className="w-full bg-white text-primary font-medium px-6 py-4 rounded-xl hover:bg-white/90 transition-colors disabled:opacity-70"
                 >
-                  {isSubmitting ? "Processing..." : "Schedule Consultation"}
+                  {isSubmitting ? "Processing..." : "Schedule Free IT Assessment"}
                 </button>
               </form>
             </div>
