@@ -10,6 +10,7 @@ import Service from "@/pages/service";
 import Audience from "@/pages/audience";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import CustomChatWidget from "@/components/CustomChatWidget";
 
 // This component ensures the page scrolls to top on route changes
 function ScrollToTop() {
@@ -44,6 +45,7 @@ function App() {
       <TooltipProvider>
         <Toaster />
         <Router />
+        <CustomChatWidget />
       </TooltipProvider>
     </QueryClientProvider>
   );
