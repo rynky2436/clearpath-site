@@ -20,14 +20,15 @@ export default function Service() {
   return (
     <>
       <Helmet>
-        <title>{service.title} | Maryland IT Services | ClearPath Tech Solutions</title>
-        <meta name="description" content={`${service.title} in Baltimore, Columbia & across Maryland. ${service.description.slice(0, 120)}`} />
-        <meta property="og:title" content={`${service.title} | Maryland IT Services | ClearPath Tech Solutions`} />
-        <meta property="og:description" content={`Professional ${service.title.toLowerCase()} for businesses throughout Maryland. Serving Baltimore, Columbia, Annapolis and surrounding areas.`} />
+        <title>{service.title} | DC Metro IT Services | ClearPath Tech Solutions</title>
+        <meta name="description" content={`${service.title} across the DMV region. ${service.description.slice(0, 120)}`} />
+        <meta property="og:title" content={`${service.title} | DC Metro IT Services | ClearPath Tech Solutions`} />
+        <meta property="og:description" content={`Professional ${service.title.toLowerCase()} for businesses throughout Washington DC, Maryland, and Northern Virginia. Serving the entire DMV region.`} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={`https://clearpathtech.com/services/${service.slug}`} />
-        <meta name="keywords" content={`${service.title} Maryland, ${service.title} Baltimore, IT Services Maryland, Technology Solutions Columbia MD, Professional IT Support, ${service.title.split(' ').join(', ')}`} />
-        <meta name="geo.region" content="US-MD" />
+        <meta name="keywords" content={`${service.title} DC Metro, ${service.title} Washington DC, IT Services DMV, Technology Solutions Northern Virginia, Professional IT Support, ${service.title.split(' ').join(', ')}`} />
+        <meta name="geo.region" content="US-DC, US-MD, US-VA" />
+        <meta name="geo.placename" content="Washington DC, Northern Virginia, Maryland" />
       </Helmet>
       
       <main>
@@ -100,12 +101,12 @@ export default function Service() {
                 transition={{ duration: 0.6, delay: 0.3 }}
               >
                 <div className="glass rounded-3xl shadow-lg p-8 sticky top-24">
-                  <h3 className="text-xl font-bold mb-6">Why Choose ClearPath Tech in Maryland</h3>
+                  <h3 className="text-xl font-bold mb-6">Why Choose ClearPath Tech in the DC Metro Area</h3>
                   
                   <ul className="space-y-4">
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
-                      <span>Local Maryland IT team with fast response times</span>
+                      <span>DMV-based IT team with fast response times</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
@@ -117,7 +118,7 @@ export default function Service() {
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
-                      <span>Maryland-based offices in Baltimore and Columbia</span>
+                      <span>Convenient locations throughout the DC Metro area</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
@@ -125,15 +126,15 @@ export default function Service() {
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
-                      <span>Experience serving Maryland businesses since 2010</span>
+                      <span>Experience serving DMV businesses since 2010</span>
                     </li>
                   </ul>
                   
                   <div className="mt-8">
                     <Button className="w-full rounded-xl" size="lg" asChild>
-                      <a href="#contact">Get Maryland IT Support</a>
+                      <a href="#contact">Get DC Metro IT Support</a>
                     </Button>
-                    <p className="text-xs text-center mt-3 text-neutral-500">Serving Baltimore, Columbia & All Maryland</p>
+                    <p className="text-xs text-center mt-3 text-neutral-500">Serving the entire DMV region</p>
                   </div>
                 </div>
               </motion.div>
@@ -145,10 +146,10 @@ export default function Service() {
         <section className="py-16 bg-secondary">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="glass rounded-3xl shadow-lg p-8 md:p-12 max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Need {service.title} in Maryland?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">Need {service.title} in the DC Metro Area?</h2>
               <p className="text-lg text-neutral-600 mb-8 max-w-2xl mx-auto">
-                Our Baltimore and Columbia-based IT team is ready to provide expert {service.title.toLowerCase()} 
-                solutions for your Maryland business. Contact us today for a free assessment.
+                Our DMV-based IT team is ready to provide expert {service.title.toLowerCase()} 
+                solutions for your business throughout Washington DC, Maryland, and Northern Virginia. Contact us today for a free assessment.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="rounded-full" asChild>
@@ -159,7 +160,7 @@ export default function Service() {
                 </Button>
               </div>
               <p className="text-sm text-neutral-500 mt-6">
-                Serving Baltimore, Columbia, Annapolis, and all of Maryland
+                Serving Washington DC, Northern Virginia, and throughout Maryland
               </p>
             </div>
           </div>

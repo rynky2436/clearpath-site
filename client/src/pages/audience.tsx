@@ -162,7 +162,7 @@ export default function Audience() {
                   
                   <div className="mt-8">
                     <Button className="w-full rounded-xl" size="lg" asChild>
-                      <a href="#contact">Get Maryland IT Support</a>
+                      <a href="#contact">Get DC Metro IT Support</a>
                     </Button>
                     <p className="text-xs text-center mt-3 text-neutral-500">Serving {audience.title} throughout the DMV region</p>
                   </div>
@@ -176,10 +176,10 @@ export default function Audience() {
         <section className="py-16 bg-secondary">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="glass rounded-3xl shadow-lg p-8 md:p-12 max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Maryland IT Support for {audience.title}</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">DC Metro IT Support for {audience.title}</h2>
               <p className="text-lg text-neutral-600 mb-8 max-w-2xl mx-auto">
-                ClearPath Tech specializes in custom IT solutions for {audience.title.toLowerCase()} throughout Baltimore, Columbia, and all of Maryland.
-                Contact our local team today to discuss your specific technology needs.
+                ClearPath Tech specializes in custom IT solutions for {audience.title.toLowerCase()} throughout Washington DC, Maryland, and Northern Virginia.
+                Contact our team today to discuss your specific technology needs across the DMV region.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="rounded-full" asChild>
@@ -190,7 +190,7 @@ export default function Audience() {
                 </Button>
               </div>
               <p className="text-sm text-neutral-500 mt-6">
-                Trusted by {audience.title.toLowerCase()} across Baltimore, Columbia, Annapolis, and all of Maryland
+                Trusted by {audience.title.toLowerCase()} across Washington DC, Northern Virginia, and throughout Maryland
               </p>
             </div>
           </div>
