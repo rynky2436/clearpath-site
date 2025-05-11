@@ -37,7 +37,7 @@ export default function NotFound() {
               
               <div className="text-center">
                 <p className="text-sm text-gray-500">Need IT support in the DC Metro area?</p>
-                <p className="text-sm text-gray-500">Call us at (410) 555-0123</p>
+                <p className="text-sm text-gray-500">Call us at (202) 555-0123</p>
               </div>
             </div>
           </CardContent>

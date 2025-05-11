@@ -29,13 +29,13 @@ export default function HeroSection() {
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="#services"
-              className="bg-primary text-white text-center px-8 py-4 rounded-full hover:bg-blue-700 transition-colors text-lg font-medium"
+              className="bg-primary text-white text-center px-8 py-4 rounded-full hover:bg-blue-700 transition-colors text-lg font-bold shadow-md"
             >
               DC Metro IT Support Services
             </a>
             <a
               href="#consult"
-              className="bg-white/20 backdrop-blur-sm text-white border border-white/30 text-center px-8 py-4 rounded-full hover:bg-white/30 transition-colors text-lg font-medium"
+              className="bg-white/30 backdrop-blur-sm text-white border border-white/50 text-center px-8 py-4 rounded-full hover:bg-white/40 transition-colors text-lg font-bold shadow-md"
             >
               Get Free IT Assessment
             </a>
