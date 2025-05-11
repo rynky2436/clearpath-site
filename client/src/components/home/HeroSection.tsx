@@ -20,24 +20,24 @@ export default function HeroSection() {
           className="glass rounded-3xl shadow-xl max-w-3xl mx-auto md:mx-0 p-8 md:p-12"
         >
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-            Trusted IT Support <span className="text-primary">in Maryland</span>
+            Managed IT Services <span className="text-primary">in Maryland</span>
           </h1>
           <p className="text-lg md:text-xl text-neutral-700 mb-8 max-w-2xl">
-            ClearPath Tech Solutions provides managed IT services and business tech support across Maryland. 
-            From small business IT support to cybersecurity services, we're your local technology partner.
+            ClearPath Tech Solutions provides complete IT support for businesses across Baltimore, Columbia, and all of Maryland.
+            From managed IT services to cybersecurity, network support, and cloud solutions - we're your trusted local technology partner.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="#services"
               className="bg-primary text-white text-center px-8 py-4 rounded-full hover:bg-blue-700 transition-colors text-lg font-medium"
             >
-              View IT Support Services
+              Maryland IT Support Services
             </a>
             <a
               href="#consult"
               className="bg-white/20 backdrop-blur-sm text-white border border-white/30 text-center px-8 py-4 rounded-full hover:bg-white/30 transition-colors text-lg font-medium"
             >
-              Get Free IT Consultation
+              Get Free IT Assessment
             </a>
           </div>
         </motion.div>
