@@ -73,8 +73,8 @@ export const services: Service[] = [
     title: "Smart Home Automation",
     shortDescription: "Integrate and automate your home's lighting, security, climate, and entertainment systems for convenience and efficiency.",
     description: "Transform your living space with our comprehensive smart home solutions. We design, install, and configure integrated systems that connect your lighting, security, climate control, entertainment, and more into one seamless experience that's both intuitive and powerful.",
-    image: "https://images.unsplash.com/photo-1558002038-1055907df827?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80",
-    heroImage: "https://images.unsplash.com/photo-1585060282215-39a72f82385c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1000&q=80",
+    image: "/src/assets/smart-home.png",
+    heroImage: "/src/assets/smart-home.png",
     sections: [
       {
         title: "Whole-Home Integration",
@@ -163,8 +163,8 @@ export const services: Service[] = [
     title: "Data Backup & Recovery",
     shortDescription: "Safeguard your important data with automated backup systems and proven recovery solutions.",
     description: "Your data is invaluable—from irreplaceable family photos to critical business documents. Our comprehensive backup solutions ensure your data is automatically protected, securely stored, and easily recoverable in case of hardware failure, accidental deletion, ransomware, or other data loss scenarios.",
-    image: "https://images.unsplash.com/photo-1600267204091-5c1ab8b10c02?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80",
-    heroImage: "https://images.unsplash.com/photo-1568027762272-e4da8b8dde3d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1000&q=80",
+    image: "/src/assets/data-backup.png",
+    heroImage: "/src/assets/data-backup.png",
     sections: [
       {
         title: "Comprehensive Backup Strategy",
