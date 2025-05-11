@@ -4,6 +4,7 @@ import { services } from "@shared/data";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { ArrowRight, CheckCircle } from "lucide-react";
+import HeroSection from "@/components/HeroSection";
 
 export default function Service() {
   const { slug } = useParams();
@@ -29,30 +30,13 @@ export default function Service() {
       
       <main>
         {/* Hero section */}
-        <section
-          className="relative py-20 md:py-28 overflow-hidden"
-          style={{
-            backgroundImage: `url(${service.heroImage || service.image})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        >
-          <div className="absolute inset-0 bg-neutral-900/50"></div>
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              className="max-w-3xl"
-            >
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">{service.title}</h1>
-              <p className="text-xl text-white/90 mb-8">{service.shortDescription}</p>
-              <Button size="lg" className="rounded-full" asChild>
-                <a href="#contact">Get Started</a>
-              </Button>
-            </motion.div>
-          </div>
-        </section>
+        <HeroSection
+          title={service.title}
+          description={service.shortDescription}
+          backgroundImage={service.heroImage || service.image}
+          actionLabel="Get Started"
+          actionLink="#contact"
+        />
         
         {/* Content section */}
         <section className="py-16 bg-white">
