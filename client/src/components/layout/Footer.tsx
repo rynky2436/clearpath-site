@@ -109,21 +109,9 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-6">Contact</h4>
             <ul className="space-y-3">
-              <li className="flex items-start">
-                <MapPin className="text-primary h-5 w-5 mt-1 mr-3" />
-                <span className="text-white/70">1200 Tech Avenue<br />Suite 400<br />Washington, DC 20005</span>
-              </li>
-              <li className="flex items-start mt-3">
-                <MapPin className="text-primary h-5 w-5 mt-1 mr-3" />
-                <span className="text-white/70">123 Main Street<br />Suite 101<br />Baltimore, MD 21201</span>
-              </li>
               <li className="flex items-center mt-3">
                 <Phone className="text-primary h-5 w-5 mr-3" />
-                <a href="tel:+12025550123" className="text-white/70 hover:text-primary transition-colors">(202) 555-0123</a>
-              </li>
-              <li className="flex items-center mt-3">
-                <Phone className="text-primary h-5 w-5 mr-3" />
-                <a href="tel:+14105550123" className="text-white/70 hover:text-primary transition-colors">(410) 555-0123</a>
+                <a href="tel:+13017488360" className="text-white/70 hover:text-primary transition-colors">301.748.8360</a>
               </li>
               <li className="flex items-center mt-3">
                 <Mail className="text-primary h-5 w-5 mr-3" />

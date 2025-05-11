@@ -156,7 +156,7 @@ export default function Service() {
                   <a href="#contact">Schedule Free IT Assessment</a>
                 </Button>
                 <Button variant="outline" size="lg" className="rounded-full" asChild>
-                  <a href="tel:+12025550123">Call (202) 555-0123</a>
+                  <a href="tel:+13017488360">Call 301.748.8360</a>
                 </Button>
               </div>
               <p className="text-sm text-neutral-500 mt-6">
