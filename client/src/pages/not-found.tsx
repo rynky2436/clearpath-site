@@ -8,10 +8,10 @@ export default function NotFound() {
   return (
     <>
       <Helmet>
-        <title>Page Not Found | ClearPath Tech Solutions | Maryland IT Support Services</title>
-        <meta name="description" content="Sorry, the page you're looking for doesn't exist. Return to ClearPath Tech Solutions - your trusted Maryland IT support and managed services provider." />
-        <meta property="og:title" content="Page Not Found | ClearPath Tech - Maryland IT Services" />
-        <meta property="og:description" content="The page you requested could not be found. ClearPath Tech Solutions provides managed IT services and IT support across Maryland." />
+        <title>Page Not Found | ClearPath Tech Solutions | DC Metro IT Support Services</title>
+        <meta name="description" content="Sorry, the page you're looking for doesn't exist. Return to ClearPath Tech Solutions - your trusted IT support and managed services provider in the DC Metro area." />
+        <meta property="og:title" content="Page Not Found | ClearPath Tech - DMV IT Services" />
+        <meta property="og:description" content="The page you requested could not be found. ClearPath Tech Solutions provides managed IT services and IT support throughout Washington DC, Maryland, and Northern Virginia." />
         <meta name="robots" content="noindex, follow" />
       </Helmet>
       
@@ -36,7 +36,7 @@ export default function NotFound() {
               </Button>
               
               <div className="text-center">
-                <p className="text-sm text-gray-500">Need IT support in Maryland?</p>
+                <p className="text-sm text-gray-500">Need IT support in the DC Metro area?</p>
                 <p className="text-sm text-gray-500">Call us at (410) 555-0123</p>
               </div>
             </div>

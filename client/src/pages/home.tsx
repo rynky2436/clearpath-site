@@ -16,7 +16,7 @@ export default function Home() {
         <meta property="og:description" content="Trusted IT support provider serving the entire DC Metro area. 24/7 remote support, on-site services, and complete technology management for businesses throughout the DMV region." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://clearpathtech.com" />
-        <meta name="keywords" content="Managed IT Services DC Metro, IT Support DMV Region, Washington DC IT Services, Northern Virginia IT Support, DC Metro Cybersecurity, Maryland IT Consulting, DMV Cloud Services, Small Business IT Support DC, Network Support Services DMV, Microsoft 365 Support DC Metro, Business IT Solutions DC Metro, VoIP Services DMV" />
+        <meta name="keywords" content="IT Support Services DC Metro, Managed IT Services DMV, Washington DC IT Support, Northern Virginia Tech Support, Cybersecurity Services DC Metro, Cloud Services for Small Business DMV, Microsoft 365 Support DC Metro, Remote IT Help Desk DMV, Network Setup DC Area, Business Tech Support Washington DC, VoIP Setup Arlington VA, Data Backup DC Metro, Small Business IT Support Alexandria VA, IT Consulting Bethesda MD, Local Tech Support Company DMV" />
         <meta name="geo.region" content="US-DC, US-MD, US-VA" />
         <meta name="geo.placename" content="Washington DC, Northern Virginia, Maryland" />
         <link rel="canonical" href="https://clearpathtech.com" />

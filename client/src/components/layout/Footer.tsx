@@ -12,7 +12,7 @@ export default function Footer() {
               <span className="text-white text-2xl font-bold">ClearPath</span>
               <span className="text-primary text-2xl font-light">Tech</span>
             </Link>
-            <p className="text-white/70 mb-6">Trusted IT support services in Maryland providing managed IT, cybersecurity, and technology solutions for local businesses with expert service and a personal touch.</p>
+            <p className="text-white/70 mb-6">Trusted IT support services throughout the DC Metro area providing managed IT, cybersecurity, and technology solutions for businesses across Washington DC, Maryland, and Northern Virginia with expert service and a personal touch.</p>
             <div className="flex space-x-4">
               <a href="#" className="text-white/70 hover:text-primary transition-colors">
                 <Facebook className="h-5 w-5" />
@@ -69,38 +69,38 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-6">Areas Served</h4>
             <ul className="space-y-2">
               <li>
+                <Link href="/locations/washington-dc" className="text-white/70 hover:text-primary transition-colors">
+                  Washington DC IT Support
+                </Link>
+              </li>
+              <li>
+                <Link href="/locations/arlington" className="text-white/70 hover:text-primary transition-colors">
+                  Arlington VA IT Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/locations/alexandria" className="text-white/70 hover:text-primary transition-colors">
+                  Alexandria VA IT Support
+                </Link>
+              </li>
+              <li>
                 <Link href="/locations/baltimore" className="text-white/70 hover:text-primary transition-colors">
-                  Baltimore IT Support
-                </Link>
-              </li>
-              <li>
-                <Link href="/locations/columbia" className="text-white/70 hover:text-primary transition-colors">
-                  Columbia IT Services
-                </Link>
-              </li>
-              <li>
-                <Link href="/locations/annapolis" className="text-white/70 hover:text-primary transition-colors">
-                  Annapolis IT Support
-                </Link>
-              </li>
-              <li>
-                <Link href="/locations/rockville" className="text-white/70 hover:text-primary transition-colors">
-                  Rockville IT Services
+                  Baltimore MD IT Services
                 </Link>
               </li>
               <li>
                 <Link href="/locations/bethesda" className="text-white/70 hover:text-primary transition-colors">
-                  Bethesda IT Support
+                  Bethesda MD IT Support
                 </Link>
               </li>
               <li>
-                <Link href="/locations/frederick" className="text-white/70 hover:text-primary transition-colors">
-                  Frederick IT Services
+                <Link href="/locations/rockville" className="text-white/70 hover:text-primary transition-colors">
+                  Rockville MD IT Services
                 </Link>
               </li>
               <li>
                 <Link href="/locations" className="text-white/70 hover:text-primary transition-colors">
-                  All Maryland Service Areas
+                  All DMV Service Areas
                 </Link>
               </li>
             </ul>
@@ -111,11 +111,15 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin className="text-primary h-5 w-5 mt-1 mr-3" />
-                <span className="text-white/70">123 Main Street<br />Suite 101<br />Baltimore, MD 21201</span>
+                <span className="text-white/70">1200 Tech Avenue<br />Suite 400<br />Washington, DC 20005</span>
               </li>
               <li className="flex items-start mt-3">
                 <MapPin className="text-primary h-5 w-5 mt-1 mr-3" />
-                <span className="text-white/70">456 Business Parkway<br />Suite 205<br />Columbia, MD 21044</span>
+                <span className="text-white/70">123 Main Street<br />Suite 101<br />Baltimore, MD 21201</span>
+              </li>
+              <li className="flex items-center mt-3">
+                <Phone className="text-primary h-5 w-5 mr-3" />
+                <a href="tel:+12025550123" className="text-white/70 hover:text-primary transition-colors">(202) 555-0123</a>
               </li>
               <li className="flex items-center mt-3">
                 <Phone className="text-primary h-5 w-5 mr-3" />
