@@ -27,34 +27,34 @@ export default function IntroSection() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Technology shouldn't be <span className="text-primary">complicated</span>
+              Maryland's Trusted <span className="text-primary">IT Support Partner</span>
             </h2>
             <p className="text-neutral-600 text-lg mb-6">
-              At ClearPath Tech Solutions, we believe technology should enhance your life, not complicate it. 
-              Our hands-on approach ensures you get personalized solutions that work for your specific needs.
+              At ClearPath Tech Solutions, we provide honest and friendly IT support services for businesses across Maryland. 
+              Our white-glove approach ensures personalized tech solutions that work for your specific needs.
             </p>
             <p className="text-neutral-600 text-lg mb-8">
-              From smart home setups to enterprise IT infrastructure, our team of certified technicians 
-              brings clarity to technology with straightforward solutions and ongoing support.
+              From managed IT services and cybersecurity to website development and cloud services, our team of certified technicians 
+              delivers reliable technology support with clear communication and ongoing assistance.
             </p>
             
             <div className="grid grid-cols-2 gap-6">
               {[
                 {
-                  title: "Expert Technicians",
-                  description: "Certified pros with years of experience",
+                  title: "Local IT Support",
+                  description: "Maryland-based team ready to help",
                 },
                 {
-                  title: "Personalized Service",
-                  description: "Solutions tailored to your unique needs",
+                  title: "Small Business Focus",
+                  description: "Affordable services for local businesses",
                 },
                 {
-                  title: "Clear Communication",
-                  description: "No technical jargon, just clarity",
+                  title: "One-on-One Support",
+                  description: "No technical jargon, just friendly help",
                 },
                 {
-                  title: "Ongoing Support",
-                  description: "We're there long after installation",
+                  title: "Remote & On-Site Help",
+                  description: "Fast response helpdesk & in-person visits",
                 },
               ].map((item, index) => (
                 <motion.div

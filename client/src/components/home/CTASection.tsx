@@ -96,9 +96,9 @@ export default function CTASection() {
             </div>
             
             <div className="p-8 md:p-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Ready for better technology?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Need IT Support in Maryland?</h2>
               <p className="text-white/80 mb-8">
-                Schedule a free consultation with our experts to discuss your technology needs and discover how we can help.
+                Schedule a free consultation with our local experts to discuss your business technology needs, from managed IT services to website development and cybersecurity.
               </p>
               
               <form className="space-y-4" onSubmit={handleSubmit}>

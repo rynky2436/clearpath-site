@@ -20,11 +20,11 @@ export default function HeroSection() {
           className="glass rounded-3xl shadow-xl max-w-3xl mx-auto md:mx-0 p-8 md:p-12"
         >
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-            Technology Solutions, <span className="text-primary">Simplified</span>
+            Trusted IT Support <span className="text-primary">in Maryland</span>
           </h1>
           <p className="text-lg md:text-xl text-neutral-700 mb-8 max-w-2xl">
-            ClearPath Tech provides personalized technology services that make digital life seamless. 
-            From custom PC builds to smart home automation, we're your guide to better tech.
+            ClearPath Tech Solutions provides managed IT services and business tech support across Maryland. 
+            From small business IT support to cybersecurity services, we're your local technology partner.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
