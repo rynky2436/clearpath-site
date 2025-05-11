@@ -54,7 +54,7 @@ export default function ServicesSection() {
         
         <div className="mt-12 text-center">
           <Link
-            href="/services"
+            href="/#services"
             className="inline-flex items-center text-primary font-medium text-lg"
           >
             View all services <ArrowRight className="ml-2 h-5 w-5" />
