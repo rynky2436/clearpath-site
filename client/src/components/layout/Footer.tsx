@@ -135,10 +135,10 @@ export default function Footer() {
         
         <div className="border-t border-white/10 mt-12 pt-8">
           <div className="mb-6 text-center">
-            <p className="text-white/70 text-sm">Your trusted Maryland IT support partner for managed IT services, cybersecurity, and network solutions.</p>
+            <p className="text-white/70 text-sm">Your trusted DC Metro IT support partner for managed IT services, cybersecurity, and network solutions across the DMV region.</p>
           </div>
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-white/70 text-sm mb-4 md:mb-0">© {new Date().getFullYear()} ClearPath Tech Solutions. IT Support Services in Maryland. All rights reserved.</p>
+            <p className="text-white/70 text-sm mb-4 md:mb-0">© {new Date().getFullYear()} ClearPath Tech Solutions. IT Support Services in Washington DC, Maryland, and Northern Virginia. All rights reserved.</p>
             <div className="flex space-x-6">
               <a href="/privacy" className="text-white/70 text-sm hover:text-primary transition-colors">Privacy Policy</a>
               <a href="/terms" className="text-white/70 text-sm hover:text-primary transition-colors">Terms of Service</a>
