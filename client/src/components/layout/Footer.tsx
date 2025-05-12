@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <Link href="/" className="flex items-center mb-6">
               <img 
-                src="/logos/logo-light.png" 
+                src="/logos/logo-dark.png" 
                 alt="ClearPath Tech Solutions Logo" 
                 className="h-14 w-auto" 
               />
