@@ -8,11 +8,14 @@ export default function Footer() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <Link href="/" className="flex items-center space-x-2 mb-6">
-              <span className="text-white text-2xl font-bold">ClearPath</span>
-              <span className="text-primary text-2xl font-light">Tech</span>
+            <Link href="/" className="flex items-center mb-6">
+              <img 
+                src="/logos/logo-light.png" 
+                alt="ClearPath Tech Solutions Logo" 
+                className="h-14 w-auto" 
+              />
             </Link>
-            <p className="text-white/70 mb-6">Trusted IT support services throughout the DC Metro area providing managed IT, cybersecurity, and technology solutions for businesses across Washington DC, Maryland, and Northern Virginia with expert service and a personal touch.</p>
+            <p className="text-white/70 mb-6">Your trusted hands-on tech expert serving the DC Metro area. Specializing in smart home systems, security cameras, computer repairs, custom PC builds, networking, and technology solutions for homes and businesses across Washington DC, Maryland, and Northern Virginia.</p>
             <div className="flex space-x-4">
               <a href="#" className="text-white/70 hover:text-primary transition-colors">
                 <Facebook className="h-5 w-5" />
@@ -123,7 +126,7 @@ export default function Footer() {
         
         <div className="border-t border-white/10 mt-12 pt-8">
           <div className="mb-6 text-center">
-            <p className="text-white/70 text-sm">Your trusted DC Metro IT support partner for managed IT services, cybersecurity, and network solutions across the DMV region.</p>
+            <p className="text-white/70 text-sm">Your trusted DC Metro tech expert for smart home, security, computer repair, and networking solutions across the DMV region.</p>
           </div>
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-white/70 text-sm mb-4 md:mb-0">© {new Date().getFullYear()} ClearPath Tech Solutions. IT Support Services in Washington DC, Maryland, and Northern Virginia. All rights reserved.</p>
