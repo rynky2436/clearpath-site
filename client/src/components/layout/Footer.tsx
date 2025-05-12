@@ -10,9 +10,9 @@ export default function Footer() {
           <div>
             <Link href="/" className="flex items-center mb-6">
               <img 
-                src="/logos/logo-dark.png" 
+                src="/logos/logo-light.png" 
                 alt="ClearPath Tech Solutions Logo" 
-                className="h-14 w-auto" 
+                className="h-20 w-auto" 
               />
             </Link>
             <p className="text-white/70 mb-6">Your trusted hands-on tech expert serving the DC Metro area. Specializing in smart home systems, security cameras, computer repairs, custom PC builds, networking, and technology solutions for homes and businesses across Washington DC, Maryland, and Northern Virginia.</p>
