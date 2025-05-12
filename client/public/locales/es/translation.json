@@ -1,0 +1,55 @@
+{
+  "header": {
+    "services": "Servicios",
+    "audiences": "Audiencias",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "getStarted": "Empezar"
+  },
+  "hero": {
+    "title": "Soluciones Tecnológicas Expertas en el Área Metro de DC",
+    "description": "ClearPath Tech Solutions proporciona experiencia tecnológica práctica para hogares y negocios en Washington DC, Maryland y Virginia del Norte. Desde sistemas de casas inteligentes y cámaras de seguridad hasta reparaciones de computadoras, construcción de PC personalizadas y redes - sus problemas tecnológicos resueltos en toda la región DMV.",
+    "cta1": "Servicios Tecnológicos DMV",
+    "cta2": "Obtenga Consulta Técnica Gratuita"
+  },
+  "intro": {
+    "title": "El Principal Experto Tecnológico del Área Metro de DC",
+    "description1": "En ClearPath Tech Solutions, proporciono experiencia tecnológica práctica para hogares y negocios en todo Washington DC, Maryland y Virginia del Norte. Como su experto tecnológico personal, ofrezco soporte de respuesta rápida y soluciones personalizadas en toda la región DMV.",
+    "description2": "Desde la automatización del hogar inteligente y cámaras de seguridad hasta reparaciones de computadoras, redes y ciberseguridad - lo manejo todo personalmente. Sin centros de llamadas ni técnicos principiantes - obtiene acceso directo a un profesional tecnológico experimentado listo para resolver cualquier desafío tecnológico en el área Metro de DC.",
+    "services": {
+      "smartHome": {
+        "title": "Hogar Inteligente & Seguridad",
+        "description": "Cámaras, alarmas & automatización"
+      },
+      "computers": {
+        "title": "Servicios de Computación",
+        "description": "Reparaciones, actualizaciones & PC personalizadas"
+      },
+      "network": {
+        "title": "Instalación de Redes",
+        "description": "Soluciones WiFi para empresas y hogares"
+      },
+      "support": {
+        "title": "Soporte Técnico 24/7",
+        "description": "Acceso directo en toda la región DMV"
+      }
+    }
+  },
+  "footer": {
+    "description": "Su experto tecnológico de confianza que atiende el área Metro de DC. Especializado en sistemas de hogares inteligentes, cámaras de seguridad, reparación de computadoras, construcción de PC personalizadas, redes y soluciones tecnológicas para hogares y negocios en Washington DC, Maryland y Virginia del Norte.",
+    "services": "Servicios de TI",
+    "areas": "Áreas Atendidas",
+    "contact": "Contacto",
+    "tagline": "Su experto tecnológico de confianza del Metro DC para soluciones de hogar inteligente, seguridad, reparación de computadoras y redes en toda la región DMV.",
+    "copyright": "© {{year}} ClearPath Tech Solutions. Servicios de soporte informático en Washington DC, Maryland y Virginia del Norte. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "sitemap": "Mapa del Sitio"
+  },
+  "languageSelector": {
+    "title": "Idioma",
+    "en": "Inglés",
+    "es": "Español",
+    "fr": "Francés"
+  }
+}
