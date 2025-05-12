@@ -4,6 +4,7 @@ import { services, audiences } from "@shared/data";
 import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <footer className="bg-neutral-900 text-white py-12">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -16,7 +17,7 @@ export default function Footer() {
                 className="h-20 w-auto" 
               />
             </Link>
-            <p className="text-white/70 mb-6">Your trusted hands-on tech expert serving the DC Metro area. Specializing in smart home systems, security cameras, computer repairs, custom PC builds, networking, and technology solutions for homes and businesses across Washington DC, Maryland, and Northern Virginia.</p>
+            <p className="text-white/70 mb-6">{t('footer.description')}</p>
             <div className="flex space-x-4">
               <a href="#" className="text-white/70 hover:text-primary transition-colors">
                 <Facebook className="h-5 w-5" />
@@ -34,7 +35,7 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-6">IT Services</h4>
+            <h4 className="text-lg font-semibold mb-6">{t('footer.services')}</h4>
             <ul className="space-y-2">
               <li>
                 <Link href="/services/managed-it" className="text-white/70 hover:text-primary transition-colors">
@@ -70,7 +71,7 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-6">Areas Served</h4>
+            <h4 className="text-lg font-semibold mb-6">{t('footer.areas')}</h4>
             <ul className="space-y-2">
               <li>
                 <Link href="/locations/washington-dc" className="text-white/70 hover:text-primary transition-colors">
@@ -111,7 +112,7 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-6">Contact</h4>
+            <h4 className="text-lg font-semibold mb-6">{t('footer.contact')}</h4>
             <ul className="space-y-3">
               <li className="flex items-center mt-3">
                 <Phone className="text-primary h-5 w-5 mr-3" />
@@ -127,14 +128,14 @@ export default function Footer() {
         
         <div className="border-t border-white/10 mt-12 pt-8">
           <div className="mb-6 text-center">
-            <p className="text-white/70 text-sm">Your trusted DC Metro tech expert for smart home, security, computer repair, and networking solutions across the DMV region.</p>
+            <p className="text-white/70 text-sm">{t('footer.tagline')}</p>
           </div>
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-white/70 text-sm mb-4 md:mb-0">© {new Date().getFullYear()} ClearPath Tech Solutions. IT Support Services in Washington DC, Maryland, and Northern Virginia. All rights reserved.</p>
+            <p className="text-white/70 text-sm mb-4 md:mb-0">{t('footer.copyright', { year: new Date().getFullYear() })}</p>
             <div className="flex space-x-6">
-              <a href="/privacy" className="text-white/70 text-sm hover:text-primary transition-colors">Privacy Policy</a>
-              <a href="/terms" className="text-white/70 text-sm hover:text-primary transition-colors">Terms of Service</a>
-              <a href="/sitemap" className="text-white/70 text-sm hover:text-primary transition-colors">Sitemap</a>
+              <a href="/privacy" className="text-white/70 text-sm hover:text-primary transition-colors">{t('footer.privacy')}</a>
+              <a href="/terms" className="text-white/70 text-sm hover:text-primary transition-colors">{t('footer.terms')}</a>
+              <a href="/sitemap" className="text-white/70 text-sm hover:text-primary transition-colors">{t('footer.sitemap')}</a>
             </div>
           </div>
         </div>
