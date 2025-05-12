@@ -36,6 +36,11 @@ export async function registerRoutes(app: Express): Promise<Server> {
     // In a real implementation, this would save to a database or send an email
     res.json({ success: true, message: "Contact form submission received" });
   });
+  
+  // Logo options preview page
+  app.get("/logo-options", (req, res) => {
+    res.sendFile(path.resolve(process.cwd(), "client/public/logo-options.html"));
+  });
 
   const httpServer = createServer(app);
 
