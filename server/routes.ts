@@ -2,6 +2,7 @@ import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { services, audiences } from "../shared/data";
+import path from "path";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // API routes for services data
