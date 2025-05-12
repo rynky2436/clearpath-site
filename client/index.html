@@ -3,9 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <meta name="keywords" content="IT support services Maryland, managed IT services Maryland, cybersecurity services Maryland, small business IT support, Baltimore IT support, Columbia MD tech services, data backup and recovery, cloud services for small business, Microsoft 365 support Maryland, remote IT helpdesk support, network setup and support, business email setup, VoIP setup and support, tech consulting for businesses, local tech support company" />
+    <meta name="keywords" content="IT support services DC Metro, managed IT services DMV, cybersecurity services Washington DC, small business IT support, DC Metro IT support, Northern Virginia tech services, data backup and recovery, cloud services for small business, Microsoft 365 support, remote IT helpdesk support, network setup and support, business email setup, VoIP setup and support, tech consulting for businesses, local tech support company" />
     <meta name="author" content="ClearPath Tech Solutions" />
     <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' blob: data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src * 'self' 'unsafe-inline'; media-src * 'self' blob: data: 'unsafe-inline'; img-src * 'self' data: content: 'unsafe-inline'; connect-src * 'self' 'unsafe-inline'; frame-src * 'self' 'unsafe-inline'; script-src * 'self' https://downloads-global.3cx.com https://1656.3cx.cloud 'unsafe-inline' 'unsafe-eval';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <title>ClearPath Tech Solutions | IT Support Services for DC Metro Area</title>
   </head>
   <body>
     <div id="root"></div>
@@ -13,9 +17,33 @@
     <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
     <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
     
-    <!-- 3CX Live Chat Code -->
-    <call-us-selector phonesystem-url="https://1656.3cx.cloud" party="ryanmangan"></call-us-selector>
-    <script defer src="https://downloads-global.3cx.com/downloads/livechatandtalk/v1/callus.js" id="tcx-callus-js" charset="utf-8"></script>
+    <!-- 3CX Live Chat Code (Modified for deployment) -->
+    <!-- Using direct integration approach instead of selector for better compatibility -->
+    <script>
+      window.addEventListener('load', function() {
+        // Create script element
+        var script = document.createElement('script');
+        script.id = "tcx-callus-js";
+        script.src = "https://downloads-global.3cx.com/downloads/livechatandtalk/v1/callus.js";
+        script.charset = "utf-8";
+        script.async = true;
+        
+        // Add the element to create the chat widget
+        var callus = document.createElement('call-us');
+        callus.setAttribute('phonesystem-url', 'https://1656.3cx.cloud');
+        callus.setAttribute('party', 'ryanmangan');
+        callus.setAttribute('id', 'wp-live-chat-by-3CX');
+        callus.setAttribute('minimized', 'true');
+        callus.setAttribute('allow-call', 'true');
+        callus.setAttribute('allow-video', 'false');
+        callus.setAttribute('enable', 'true');
+        callus.setAttribute('style', 'position:fixed;font-size:16px;line-height:17px;z-index:99999;--call-us-main-accent-color:#2196f3;right:20px;bottom:20px;');
+        
+        // Append elements to document
+        document.body.appendChild(callus);
+        document.body.appendChild(script);
+      });
+    </script>
     <!-- End 3CX Live Chat Code -->
   </body>
 </html>
