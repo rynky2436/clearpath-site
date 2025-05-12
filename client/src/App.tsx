@@ -10,7 +10,6 @@ import Service from "@/pages/service";
 import Audience from "@/pages/audience";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import ContactButton from "@/components/ContactButton";
 
 // This component ensures the page scrolls to top on route changes
 function ScrollToTop() {
@@ -35,7 +34,6 @@ function Router() {
         <Route component={NotFound} />
       </Switch>
       <Footer />
-      <ContactButton />
     </>
   );
 }
