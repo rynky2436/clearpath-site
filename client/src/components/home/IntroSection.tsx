@@ -27,34 +27,34 @@ export default function IntroSection() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              DC Metro Area's Premier <span className="text-primary">Managed IT Provider</span>
+              DC Metro Area's Premier <span className="text-primary">Tech Expert</span>
             </h2>
             <p className="text-neutral-600 text-lg mb-6">
-              At ClearPath Tech Solutions, we provide comprehensive managed IT services for businesses throughout Washington DC, Maryland, and Northern Virginia.
-              Our proactive approach ensures your business technology runs smoothly with 24/7 monitoring and rapid response support across the entire DMV region.
+              At ClearPath Tech Solutions, I provide hands-on technology expertise for homes and businesses throughout Washington DC, Maryland, and Northern Virginia.
+              As your personal tech expert, I deliver rapid response support and custom solutions across the entire DMV region.
             </p>
             <p className="text-neutral-600 text-lg mb-8">
-              From network security and data protection to cloud services and Microsoft 365 support, our team of certified IT professionals
-              delivers enterprise-level technology solutions designed specifically for small and medium businesses throughout the DC Metro area.
+              From smart home automation and security cameras to computer repairs, networking, and cybersecurity - I handle it all personally.
+              No call centers or junior techs - you get direct access to an experienced tech professional ready to solve any technology challenge in the DC Metro area.
             </p>
             
             <div className="grid grid-cols-2 gap-6">
               {[
                 {
-                  title: "Managed IT Services",
-                  description: "Proactive monitoring & maintenance",
+                  title: "Smart Home & Security",
+                  description: "Cameras, alarms & home automation",
                 },
                 {
-                  title: "Cybersecurity Solutions",
-                  description: "Advanced protection for DC Metro businesses",
+                  title: "Computer Services",
+                  description: "Repairs, upgrades & custom PC builds",
                 },
                 {
-                  title: "Cloud Services & Migration",
-                  description: "Microsoft 365 & Azure implementation",
+                  title: "Network Installation",
+                  description: "Business & home WiFi solutions",
                 },
                 {
-                  title: "24/7 Help Desk Support",
-                  description: "Rapid response across the DMV region",
+                  title: "24/7 Tech Support",
+                  description: "Direct access across the DMV region",
                 },
               ].map((item, index) => (
                 <motion.div
