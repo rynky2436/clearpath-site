@@ -10,6 +10,7 @@ export default function Header() {
   const [servicesSubmenuOpen, setServicesSubmenuOpen] = useState(false);
   const [audiencesSubmenuOpen, setAudiencesSubmenuOpen] = useState(false);
   const [location] = useLocation();
+  const { t } = useTranslation();
 
   return (
     <header className="sticky top-0 z-50 glass shadow-lg">
@@ -24,10 +25,10 @@ export default function Header() {
           </Link>
           
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden md:flex space-x-8 items-center">
             <div className="relative group">
               <button className="flex items-center space-x-1 text-neutral-900 dark:text-neutral-100 hover:text-primary transition-colors">
-                <span>Services</span>
+                <span>{t('header.services')}</span>
                 <ChevronDown className="h-4 w-4" />
               </button>
               <div className="absolute left-0 mt-2 w-56 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 glass rounded-xl shadow-lg">
@@ -47,7 +48,7 @@ export default function Header() {
             
             <div className="relative group">
               <button className="flex items-center space-x-1 text-neutral-900 dark:text-neutral-100 hover:text-primary transition-colors">
-                <span>Audiences</span>
+                <span>{t('header.audiences')}</span>
                 <ChevronDown className="h-4 w-4" />
               </button>
               <div className="absolute left-0 mt-2 w-56 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 glass rounded-xl shadow-lg">
@@ -65,9 +66,10 @@ export default function Header() {
               </div>
             </div>
             
-            <a href="#about" className="text-neutral-900 dark:text-neutral-100 hover:text-primary transition-colors">About</a>
-            <a href="#contact" className="text-neutral-900 dark:text-neutral-100 hover:text-primary transition-colors">Contact</a>
-            <a href="#consult" className="bg-primary text-white px-5 py-2 rounded-full hover:bg-blue-700 transition-colors">Get Started</a>
+            <a href="#about" className="text-neutral-900 dark:text-neutral-100 hover:text-primary transition-colors">{t('header.about')}</a>
+            <a href="#contact" className="text-neutral-900 dark:text-neutral-100 hover:text-primary transition-colors">{t('header.contact')}</a>
+            <a href="#consult" className="bg-primary text-white px-5 py-2 rounded-full hover:bg-blue-700 transition-colors">{t('header.getStarted')}</a>
+            <LanguageSelector />
           </nav>
           
           {/* Mobile menu button */}
@@ -93,7 +95,7 @@ export default function Header() {
                 className="w-full text-left px-4 py-2 text-white flex justify-between items-center"
                 onClick={() => setServicesSubmenuOpen(!servicesSubmenuOpen)}
               >
-                <span>Services</span>
+                <span>{t('header.services')}</span>
                 <ChevronDown className="h-4 w-4" />
               </button>
               {servicesSubmenuOpen && (
@@ -117,7 +119,7 @@ export default function Header() {
                 className="w-full text-left px-4 py-2 text-white flex justify-between items-center"
                 onClick={() => setAudiencesSubmenuOpen(!audiencesSubmenuOpen)}
               >
-                <span>Audiences</span>
+                <span>{t('header.audiences')}</span>
                 <ChevronDown className="h-4 w-4" />
               </button>
               {audiencesSubmenuOpen && (
@@ -141,22 +143,29 @@ export default function Header() {
               className="block px-4 py-2 text-white"
               onClick={() => setMobileMenuOpen(false)}
             >
-              About
+              {t('header.about')}
             </a>
             <a 
               href="#contact" 
               className="block px-4 py-2 text-white"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Contact
+              {t('header.contact')}
             </a>
+            
+            <div className="px-4 py-2">
+              <div className="bg-white/10 p-2 rounded-md inline-block">
+                <LanguageSelector />
+              </div>
+            </div>
+            
             <div className="pt-4">
               <a 
                 href="#consult" 
                 className="block w-full bg-primary text-center text-white px-5 py-3 rounded-full hover:bg-blue-700 transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Get Started
+                {t('header.getStarted')}
               </a>
             </div>
           </div>

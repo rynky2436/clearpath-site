@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
 import { Check } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function IntroSection() {
+  const { t } = useTranslation();
   return (
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -27,34 +29,32 @@ export default function IntroSection() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              DC Metro Area's Premier <span className="text-primary">Tech Expert</span>
+              {t('intro.title')}
             </h2>
             <p className="text-neutral-600 text-lg mb-6">
-              At ClearPath Tech Solutions, I provide hands-on technology expertise for homes and businesses throughout Washington DC, Maryland, and Northern Virginia.
-              As your personal tech expert, I deliver rapid response support and custom solutions across the entire DMV region.
+              {t('intro.description1')}
             </p>
             <p className="text-neutral-600 text-lg mb-8">
-              From smart home automation and security cameras to computer repairs, networking, and cybersecurity - I handle it all personally.
-              No call centers or junior techs - you get direct access to an experienced tech professional ready to solve any technology challenge in the DC Metro area.
+              {t('intro.description2')}
             </p>
             
             <div className="grid grid-cols-2 gap-6">
               {[
                 {
-                  title: "Smart Home & Security",
-                  description: "Cameras, alarms & home automation",
+                  title: t('intro.services.smartHome.title'),
+                  description: t('intro.services.smartHome.description'),
                 },
                 {
-                  title: "Computer Services",
-                  description: "Repairs, upgrades & custom PC builds",
+                  title: t('intro.services.computers.title'),
+                  description: t('intro.services.computers.description'),
                 },
                 {
-                  title: "Network Installation",
-                  description: "Business & home WiFi solutions",
+                  title: t('intro.services.network.title'),
+                  description: t('intro.services.network.description'),
                 },
                 {
-                  title: "24/7 Tech Support",
-                  description: "Direct access across the DMV region",
+                  title: t('intro.services.support.title'),
+                  description: t('intro.services.support.description'),
                 },
               ].map((item, index) => (
                 <motion.div

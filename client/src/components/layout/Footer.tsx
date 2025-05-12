@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { Facebook, Twitter, Instagram, Linkedin, MapPin, Phone, Mail } from "lucide-react";
 import { services, audiences } from "@shared/data";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
   return (
